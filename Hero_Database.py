@@ -1,97 +1,398 @@
+#complexity
+#tags
+#type, or role (carry or support)
+#lane
+
 heroes = {
-    'Anti-Mage': {
-        'role': ['carry', 'escape'],
-        'counters': ['Axe', 'Lion', 'Skywrath Mage'],
-        'synergy': ['Crystal Maiden', 'Magnus']
+    '1.Abaddon': {
+        'attributes': ['universal'], 
+        'role': ['carry', 'support'],
+        'complexity': ['low'],
+        'tags': ['melee', 'durable']
     },
-    'Axe': {
-        'role': ['offlaner', 'initiator'],
-        'counters': ['Phantom Lancer', 'Drow Ranger', 'Morphling'],
-        'synergy': ['Disruptor', 'Shadow Demon']
+    '2.Alchemist': {
+        'attributes': ['strength'], 
+        'role': ['carry', 'support'],
+        'complexity': ['low'],
+        'tags': ['melee', 'durable', 'disabler', 'initiator', 'nuker']
     },
-    'Crystal Maiden': {
-        'role': ['support', 'disabler'],
-        'counters': ['Juggernaut', 'Anti-Mage', 'Nyx Assassin'],
-        'synergy': ['Juggernaut', 'Lifestealer']
+    '3.Ancient Apparition': {
+        'attributes': ['strength'], 
+        'role': ['support'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'disabler', 'nuker']
     },
-    'Lion': {
-        'role': ['support', 'disabler', 'nuker'],
-        'counters': ['Anti-Mage', 'Storm Spirit', 'Morphling'],
-        'synergy': ['Axe', 'Sven', 'Wraith King']
+    '4.Anti-Mage': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['melee', 'escape', 'nuker']
+    },    
+    '5.Arc Warden': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['high'],
+        'tags': ['ranged', 'escape', 'nuker']
     },
-    'Juggernaut': {
-        'role': ['carry', 'pusher'],
-        'counters': ['Axe', 'Pugna', 'Winter Wyvern'],
-        'synergy': ['Crystal Maiden', 'Omniknight', 'Witch Doctor']
+    '6.Axe': {
+        'attributes': ['strength'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['melee', 'disabler', 'durable', 'initiator']
     },
-    'Phantom Lancer': {
-        'role': ['carry', 'escape'],
-        'counters': ['Axe', 'Earthshaker', 'Leshrac'],
-        'synergy': ['Keeper of the Light', 'Shadow Demon']
+    '7.Bane': {
+        'attributes': ['universal'], 
+        'role': ['support'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'disabler', 'nuker', 'durable']
     },
-    'Storm Spirit': {
-        'role': ['mid', 'nuker', 'escape'],
-        'counters': ['Lion', 'Anti-Mage', 'Silencer'],
-        'synergy': ['Crystal Maiden', 'Dark Willow', 'Shadow Demon']
+    '8.Batrider': {
+        'attributes': ['universal'], 
+        'role': [],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'initiator', 'disabler', 'escape']
     },
-    'Silencer': {
-        'role': ['support', 'nuker'],
-        'counters': ['Storm Spirit', 'Timbersaw', 'Tinker'],
-        'synergy': ['Faceless Void', 'Axe']
+    '9.Beastmaster': {
+        'attributes': ['universal'], 
+        'role': [],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'disabler', 'nuker', 'durable', 'initiator'] 
     },
-    'Earthshaker': {
-        'role': ['support', 'initiator', 'disabler'],
-        'counters': ['Phantom Lancer', 'Meepo', 'Broodmother'],
-        'synergy': ['Sven', 'Enigma', 'Void']
+    '10.Bloodseeker': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['melee', 'disabler', 'nuker', 'initiator']
     },
-    'Invoker': {
-        'role': ['mid', 'nuker', 'disabler'],
-        'counters': ['Silencer', 'Storm Spirit', 'Nyx Assassin'],
-        'synergy': ['Disruptor', 'Void', 'Phoenix']
+    '11.Bounty Hunter': {
+        'attributes': ['agility'], 
+        'role': [],
+        'complexity': ['low'],
+        'tags': ['melee', 'escape', 'nuker']
     },
-    'Tinker': {
-        'role': ['mid', 'pusher', 'nuker'],
-        'counters': ['Spectre', 'Nyx Assassin', 'Storm Spirit'],
-        'synergy': ['Earthshaker', 'Clockwerk', 'Warlock']
+    '12.Brewmaster': {
+        'attributes': ['universal'], 
+        'role': ['carry'],
+        'complexity': ['high'],
+        'tags': ['melee', 'disabler', 'nuker', 'durable', 'initiator']
     },
-    'Spectre': {
-        'role': ['carry', 'durable', 'escape'],
-        'counters': ['Lion', 'Tinker', 'Zeus'],
-        'synergy': ['Warlock', 'Phoenix', 'Omniknight']
+    '13.bristleback': {
+        'attributes': ['strength'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['melee', 'nuker', 'durable', 'initiator']
     },
-    'Magnus': {
-        'role': ['offlaner', 'initiator'],
-        'counters': ['Juggernaut', 'Lifestealer', 'Ursa'],
-        'synergy': ['Anti-Mage', 'Juggernaut', 'Phantom Assassin']
+    '14.Broodmother': {
+        'attributes': ['universal'], 
+        'role': ['carry'],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'escape', 'pusher', 'nuker']
     },
-    'Wraith King': {
-        'role': ['carry', 'durable'],
-        'counters': ['Anti-Mage', 'Invoker', 'Phantom Lancer'],
-        'synergy': ['Lion', 'Crystal Maiden', 'Omniknight']
+    '15.Centaur Warrunner': {
+        'attributes': ['strength'], 
+        'role': [],
+        'complexity': ['low'],
+        'tags': ['melee', 'disabler', 'escape', 'nuker', 'durable', 'initiator']
     },
-    'Lifestealer': {
-        'role': ['carry', 'durable', 'jungler'],
-        'counters': ['Doom', 'Ursa', 'Batrider'],
-        'synergy': ['Storm Spirit', 'Spirit Breaker', 'Puck']
+    '16.Chaos Knight': {
+        'attributes': ['strength'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['melee', 'disabler', 'pusher', 'durable', 'initiator']
     },
-    'Omniknight': {
-        'role': ['support', 'durable'],
-        'counters': ['Ancient Apparition', 'Shadow Demon', 'Invoker'],
-        'synergy': ['Juggernaut', 'Spectre', 'Wraith King']
+    '17.Chen': {
+        'attributes': ['universal'], 
+        'role': ['support'],
+        'complexity': ['high'],
+        'tags': ['ranged', 'pusher']
     },
-    'Drow Ranger': {
-        'role': ['carry', 'pusher'],
-        'counters': ['Axe', 'Storm Spirit', 'Clockwerk'],
-        'synergy': ['Vengeful Spirit', 'Visage', 'Dark Willow']
+    '18.Clinkz': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'escape', 'pusher']
     },
-    'Clockwerk': {
-        'role': ['offlaner', 'initiator'],
-        'counters': ['Tinker', 'Sniper', 'Drow Ranger'],
-        'synergy': ['Skywrath Mage', 'Zeus', 'Tinker']
+    '19.Clockwerk': {
+        'attributes': ['universal'], 
+        'role': [],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'disabler', 'nuker', 'durable', 'initiator']
     },
-    'Sniper': {
-        'role': ['carry', 'nuker'],
-        'counters': ['Storm Spirit', 'Clockwerk', 'Spectre'],
-        'synergy': ['Tusk', 'Warlock', 'Drow Ranger']
-    }
+    '20.Crystal Maiden': {
+        'attributes': ['intelligence'], 
+        'role': ['support'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'disabler', 'nuker']
+    },
+    '21.Dark Seer': {
+        'attributes': ['universal'], 
+        'role': [],
+        'complexity': ['low'],
+        'tags': ['melee', 'disabler', 'escape', 'initiator']
+    },
+    '22.Dark Willow': {
+        'attributes': ['universal'], 
+        'role': ['support'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'disabler', 'escape', 'nuker']
+    },
+    '23.Dawnbreaker': {
+        'attributes': ['strength'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['melee', 'durable']
+    },
+    '24.Dazzle': {
+        'attributes': ['universal'], 
+        'role': ['support'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'disabler', 'nuker']
+    },
+    '25.Death Prophet': {
+        'attributes': ['intelligence'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'disabler', 'pusher', 'nuker']
+    },
+    '26.Disruptor': {
+        'attributes': ['intelligence'], 
+        'role': ['support'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'disabler', 'nuker', 'initiator']
+    },
+    '27.Doom': {
+        'attributes': ['strength'], 
+        'role': ['carry'],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'disabler', 'nuker', 'durable', 'initiator']
+    },
+    '28.Dragon Knight': {
+        'attributes': ['strength'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['melee', 'disabler', 'pusher', 'nuker', 'durable', 'initiator']
+    },
+    '29.Drow Ranger': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'disabler', 'pusher']
+    },
+    '30.Earth Spirit': {
+        'attributes': ['strength'], 
+        'role': [],
+        'complexity': ['high'],
+        'tags': ['melee', 'disabler', 'escape', 'nuker', 'durable', 'initiator']
+    },
+    '31.Earthshaker': {
+        'attributes': ['strength'], 
+        'role': ['support'],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'disabler', 'nuker', 'initiator']
+    },
+    '32.Elder Titan': {
+        'attributes': ['strength'], 
+        'role': [],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'disabler', 'nuker', 'durable', 'initiator']
+    },
+    '33.Ember Spirit': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'disabler', 'escape', 'nuker', 'initiator']
+    },
+    '34.Enchantress': {
+        'attributes': ['intelligence'], 
+        'role': ['support'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'disabler', 'pusher', 'durable']
+    },
+    '35.Enigma': {
+        'attributes': ['universal'], 
+        'role': [],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'disabler', 'pusher', 'initiator']
+    },
+    '36.Faceless Void': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'disabler', 'escape', 'durable', 'initiator']
+    },
+    '37.Grimstroke': {
+        'attributes': ['intelligence'], 
+        'role': ['support'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'disabler', 'escape', 'nuker']
+    },
+    '38.Gyrocopter': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'disabler', 'nuker']
+    },
+    '39.Hoodwink': {
+        'attributes': ['agility'], 
+        'role': ['support'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'disabler', 'escape', 'nuker']
+    },
+    '40.Huskar': {
+        'attributes': ['strength'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'durable', 'initiator']
+    },
+    '41.Invoker': {
+        'attributes': ['universal'], 
+        'role': ['carry'],
+        'complexity': ['high'],
+        'tags': ['ranged', 'disabler', 'escape', 'pusher', 'nuker']
+    },
+    '42.Io': {
+        'attributes': ['universal'], 
+        'role': ['support'],
+        'complexity': ['high'],
+        'tags': ['ranged', 'escape', 'nuker']
+    },
+    '43.Jakiro': {
+        'attributes': ['intelligence'], 
+        'role': ['support'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'disabler', 'pusher', 'nuker']
+    },
+    '44.Juggernaut': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['melee', 'escape', 'pusher']
+    },
+    '45.Keeper of the Light': {
+        'attributes': ['intelligence'], 
+        'role': ['support'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'disabler', 'nuker']
+    },
+    '46.Kez': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['high'],
+        'tags': ['melee', 'disabler', 'escape']
+    },
+    '47.Kunkka': {
+        'attributes': ['strength'], 
+        'role': ['carry', 'support'],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'disabler', 'nuker', 'durable', 'initiator']
+    },
+    '48.Legion Commander': {
+        'attributes': ['strength'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['melee', 'disabler', 'nuker', 'durable', 'initiator']
+    },
+    '49.Leshrac': {
+        'attributes': ['intelligence'], 
+        'role': ['carry', 'support'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'disabler', 'pusher', 'nuker']
+    },
+    '50.Lich': {
+        'attributes': ['intelligence'], 
+        'role': ['support'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'nuker',]
+    },        
+    '51.Lifestealer': {
+        'attributes': ['strength'], 
+        'role': ['carry'],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'disabler', 'escape', 'durable']
+    }, 
+    '52.Lina': {
+        'attributes': ['intelligence'], 
+        'role': ['carry', 'support'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'disabler', 'nuker']
+    }, 
+    '53.Lion': {
+        'attributes': ['intelligence'], 
+        'role': ['support'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'disabler', 'nuker', 'initiator']
+    }, 
+    '54.Lone Druid': {
+        'attributes': ['universal'], 
+        'role': ['carry'],
+        'complexity': ['high'],
+        'tags': ['ranged', 'pusher', 'durable']
+    }, 
+    '55.Luna': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'pusher', 'nuker']
+    }, 
+    '56.Lycan': {
+        'attributes': ['universal'], 
+        'role': ['carry'],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'escape', 'pusher', 'durable']
+    }, 
+    '57.Magnus': {
+        'attributes': ['universal'], 
+        'role': [],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'disabler', 'escape', 'nuker', 'initiator']
+    },
+    '58.Marci': {
+        'attributes': ['universal'], 
+        'role': ['carry', 'support'],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'disabler', 'escape', 'initiator']
+    },
+    '59.Mars': {
+        'attributes': ['strength'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['melee', 'disabler', 'durable', 'initiator']
+    },
+    '60.Medusa': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'disabler', 'durable']
+    },
+    '61.Meepo': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['high'],
+        'tags': ['melee', 'disabler', 'escape', 'pusher', 'nuker', 'initiator']
+    },
+    '62.Mirana': {
+        'attributes': ['universal'], 
+        'role': ['carry', 'support'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'disabler', 'escape', 'nuker']
+    },
+    '63.Monkey King': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'disabler', 'escape', 'initiator']
+    },
+    '64.Morphling': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['high'],
+        'tags': ['ranged', 'disabler', 'escape', 'nuker', 'durable']
+    },
+    '65.Muerta': {
+        'attributes': ['intelligence'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'disabler', 'nuker']
+    },
+
 }
