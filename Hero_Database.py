@@ -394,5 +394,184 @@ heroes = {
         'complexity': ['low'],
         'tags': ['ranged', 'disabler', 'nuker']
     },
-
+    '66.Naga Siren': {
+        'attributes': ['agility'], 
+        'role': ['carry', 'support'],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'disabler', 'escape', 'pusher', 'initiator']
+    },
+    "67.Natures's Prophet": {
+        'attributes': ['intelligence'], 
+        'role': ['carry'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'escape', 'pusher', 'nuker']
+    },
+    '68.Necrophos': {
+        'attributes': ['intelligence'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'disabler', 'nuker', 'durable']
+    },
+    '69.Night Stalker': {
+        'attributes': ['strength'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['melee', 'disabler', 'nuker', 'durable', 'initiator']
+    },
+    '70.Nix Assassin': {
+        'attributes': ['universal'], 
+        'role': [],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'disabler', 'escape', 'nuker', 'initiator']
+    },
+    '71.Ogre Magi': {
+        'attributes': ['strength'], 
+        'role': ['support'],
+        'complexity': ['low'],
+        'tags': ['melee', 'disabler', 'nuker', 'durable', 'initiator']
+    },
+    '72.Omniknight': {
+        'attributes': ['strength'], 
+        'role': ['support'],
+        'complexity': ['low'],
+        'tags': ['melee', 'nuker', 'durable']
+    },
+    '73.Oracle': {
+        'attributes': ['intelligence'], 
+        'role': ['support'],
+        'complexity': ['high'],
+        'tags': ['ranged', 'disabler', 'escape', 'nuker']
+    },
+    '74.Outworld Destroyer': {
+        'attributes': ['intelligence'], 
+        'role': ['carry'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'disabler', 'nuker']
+    },
+    '75.Pangolier': {
+        'attributes': ['universal'], 
+        'role': ['carry'],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'disabler', 'escape', 'nuker', 'durable', 'initiator']
+    },
+    '76.Phantom Assassin': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['melee', 'escape']
+    },
+    '77.Phantom Lancer': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'escape', 'pusher', 'nuker']
+    },
+    '78.Phoenix': {
+        'attributes': ['universal'], 
+        'role': ['support'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'disabler', 'escape', 'nuker', 'initiator']
+    },
+    '79.Primal Beast': {
+        'attributes': ['strength'], 
+        'role': [],
+        'complexity': ['low'],
+        'tags': ['ranged', 'disabler', 'durable', 'initiator']
+    },
+    '80.Puck': {
+        'attributes': ['intelligence'], 
+        'role': [],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'disabler', 'escape', 'nuker', 'initiator']
+    },
+    '81.Pudge': {
+        'attributes': ['strength'], 
+        'role': [],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'disabler', 'escape', 'nuker', 'initiator']
+    },
+    '82.Pugna': {
+        'attributes': ['intelligence'], 
+        'role': [],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'pusher', 'nuker']
+    },
+    '83.Queen of Pain': {
+        'attributes': ['intelligence'], 
+        'role': ['carry'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'escape', 'nuker']
+    },
+    '84.Razor': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'pusher', 'nuker', 'durable']
+    },
+    '85.Riki': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['melee', 'disabler', 'escape']
+    },
+    '86.Ringmaster': {
+        'attributes': ['intelligence'], 
+        'role': ['support'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'disabler', 'escape', 'nuker']
+    },
+    '87.Rubick': {
+        'attributes': ['intelligence'], 
+        'role': ['support'],
+        'complexity': ['high'],
+        'tags': ['ranged', 'disabler', 'nuker']
+    },
+    '88.Sand King': {
+        'attributes': ['universal'], 
+        'role': ['support'],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'disabler', 'escape', 'nuker', 'initiator']
+    },
+    '89.Shadow Demon': {
+        'attributes': ['intelligence'], 
+        'role': ['support'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'disabler', 'nuker', 'initiator']
+    },
+    '90.Shadow Fiend': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'nuker']
+    },
+    '91.Shadow Shaman': {
+        'attributes': ['intelligence'], 
+        'role': ['support'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'disabler', 'pusher', 'nuker', 'initiator']
+    },
+    '92.Silencer': {
+        'attributes': ['intelligence'], 
+        'role': ['carry', 'support'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'disabler', 'nuker', 'initiator']
+    },
+    '93.Skywrath Mage': {
+        'attributes': ['intelligence'], 
+        'role': ['support'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'disabler', 'nuker']
+    },
+    '94.Slardar': {
+        'attributes': ['strength'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['melee', 'disabler', 'escape', 'durable', 'initiator']
+    },
+    '95.Slark': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'disabler', 'escape', 'nuker']
+    },
 }
