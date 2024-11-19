@@ -574,4 +574,190 @@ heroes = {
         'complexity': ['moderate'],
         'tags': ['melee', 'disabler', 'escape', 'nuker']
     },
+    '96.Snapfire': {
+        'attributes': ['agility'], 
+        'role': ['support'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'disabler', 'escape', 'nuker']
+    },
+    '97.Sniper': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'nuker']
+    },
+    '98.Spectre': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'escape', 'durable']
+    },
+    '99.Spirit Breaker': {
+        'attributes': ['strength'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['melee', 'disabler', 'escape', 'durable', 'initiator']
+    },
+    '100.Storm Spirit': {
+        'attributes': ['intelligence'], 
+        'role': ['carry'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'disabler', 'escape', 'nuker', 'initiator']
+    },
+    '101.Sven': {
+        'attributes': ['strength'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['melee', 'disabler', 'nuker', 'durable', 'initiator']
+    },
+    '102.Techies': {
+        'attributes': ['universal'], 
+        'role': [],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'disabler', 'nuker']
+    },
+    '103.Templar Assassin': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'escape']
+    },
+    '104.Terrorblade': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'pusher', 'nuker']
+    },
+    '105.Tidehunter': {
+        'attributes': ['strength'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['melee', 'disabler', 'nuker', 'durable', 'initiator']
+    },
+    '106.Timbersaw': {
+        'attributes': ['strength'], 
+        'role': [],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'escape', 'nuker', 'durable']
+    },
+    '107.Tinker': {
+        'attributes': ['intelligence'], 
+        'role': ['carry'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'pusher', 'nuker']
+    },
+    '108.Tiny': {
+        'attributes': ['strength'], 
+        'role': ['carry'],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'disabler', 'pusher', 'nuker', 'durable', 'initiator']
+    },
+    '109.Treant Protector': {
+        'attributes': ['strength'], 
+        'role': ['support'],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'disabler', 'escape', 'durable', 'initiator']
+    },
+    '110.Troll Warlord': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'disabler', 'pusher', 'durable']
+    },
+    '111.Tusk': {
+        'attributes': ['strength'], 
+        'role': [],
+        'complexity': ['low'],
+        'tags': ['melee', 'disabler', 'nuker', 'initiator']
+    },
+    '112.Underlord': {
+        'attributes': ['strength'], 
+        'role': ['support'],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'disabler', 'escape', 'nuker', 'durable']
+    },
+    '113.Undying': {
+        'attributes': ['strength'], 
+        'role': ['support'],
+        'complexity': ['low'],
+        'tags': ['melee', 'disabler', 'nuker', 'durable']
+    },
+    '114.Ursa': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['melee', 'disabler', 'durable']
+    },
+    '115.Vengeful Spirit': {
+        'attributes': ['universal'], 
+        'role': ['support'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'disabler', 'escape', 'nuker', 'initiator']
+    },
+    '116.Venomancer': {
+        'attributes': ['universal'], 
+        'role': ['support'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'disabler', 'pusher', 'nuker', 'initiator']
+    },
+    '117.Viper': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'disabler', 'durable', 'initiator']
+    },
+    '118.Visage': {
+        'attributes': ['universal'], 
+        'role': ['support'],
+        'complexity': ['high'],
+        'tags': ['ranged', 'disabler', 'pusher', 'nuker', 'durable']
+    },
+    '119.Void Spirit': {
+        'attributes': ['universal'], 
+        'role': ['carry'],
+        'complexity': ['moderate'],
+        'tags': ['melee', 'disabler', 'escape', 'nuker']
+    },
+    '120.Warlock': {
+        'attributes': ['intelligence'], 
+        'role': ['support'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'disabler', 'initiator']
+    },
+    '121.Weaver': {
+        'attributes': ['agility'], 
+        'role': ['carry'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'escape']
+    },
+    '122.Windranger': {
+        'attributes': ['universal'], 
+        'role': ['carry', 'support'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'disabler', 'escape', 'nuker']
+    },
+    '123.Winter Wyvern': {
+        'attributes': ['universal'], 
+        'role': ['support'],
+        'complexity': ['moderate'],
+        'tags': ['ranged', 'disabler', 'nuker']
+    },
+    '124.Witch Doctor': {
+        'attributes': ['intelligence'], 
+        'role': ['support'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'disabler', 'nuker']
+    },    
+    '125.Wraith King': {
+        'attributes': ['strength'], 
+        'role': ['carry', 'support'],
+        'complexity': ['low'],
+        'tags': ['melee', 'disabler', 'durable', 'initiator']
+    },   
+    '126.Zeus': {
+        'attributes': ['intelligence'], 
+        'role': ['carry'],
+        'complexity': ['low'],
+        'tags': ['ranged', 'nuker']
+    },   
 }
