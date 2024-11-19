@@ -1,0 +1,48 @@
+        Portfolio project - Recommendation software
+    In this portfolio project, you will research, brainstorm, and build a basic recommendation program for a topic of your choice. By entering letters or words into the terminal, the program will suggest a specific category for the user to explore. If the user is interested in the category, the program will provide a variety of related recommendations to the user. After you finish building the program, you will create a blog post to share the program on a publication of your choice!
+        
+Steps of the portfolio project:
+1. Think of an Idea  (done)
+    1.1.What kind of recommendation system do you want to build?
+        *** Dota2 hero recommendation system.
+    1.2.Who do you want to build something for? Yourself? Your friends? Your family? Your co-workers?
+        *** Myself, friends and/or maybe the dota2 community
+    1.3.What topics will be searchable in your recommendation system? 
+        *** hero names, atributes (universal, strength, agility, intelligence), complexity(low, moderate, high), tags(), role(support, carry, this category can be empty, one of them or both)
+
+2. Project Brainstorming (done)
+    2.1.What does your program do? 
+        *** search for dota2 heroes based on some criterias.
+    2.2.What data do you need? 
+        *** dota2 hero information from a database.
+    2.3.What questions will you ask the user?
+        *** What criterias would you like to choose:
+            by hero name? 
+            one or multiples, from (atributes, complexity, tags and role)?
+    2.4.How do the above questions return a recommendation? 
+        *** a list of heroes that match the criterias selected by the user.
+3. Setting up your GitHub Repository (done)
+    Create a new GitHub repository for this project and add at least one Python file inside.
+    Don’t forget to name your file!
+4. Gather Data (done)
+5. Version Control (done/in progress with the project development...)
+    Set up Git tracking in your directory and make sure to add and commit changes as you make them.
+6. Write Your Program. This project consists of two main parts:
+    6.1. Implementing an autocomplete that, based on a user’s input, returns a list of possible categories based on the beginning of a word. You should use the data created in the last step to create the autocomplete. It is up to you how to properly store and retrieve the data.
+    6.2. Retrieving and displaying all of the data related to the category selected by the user. It is up to you how to properly store and retrieve the data.
+7. Refactoring. Now that you have a working program, try to go back to it see what you can do better.
+    7.1. Is there a better data structure to use to store your data?
+    7.2. Would a different searching algorithm improve efficiency?
+    7.3. Is there documentation in your program to make your code readable?
+    
+    Create a blog post using Medium, Dev.to, or some other blogging platform.
+    Your blog post should include the following:
+
+        * A compelling title about your program
+        * An introduction sharing the background info (the “why”)
+        * An image or a GIF of your program
+        * An accompanying paragraph describing your Python code
+        * A link to your code on GitHub.
+        * A conclusion
+8. Blog Post
+    Once you’ve completed the program, you’re ready to create a blog post about your programming.
