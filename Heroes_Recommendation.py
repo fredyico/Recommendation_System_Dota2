@@ -23,13 +23,13 @@ def hero_by_multiple_traits():
 #  pass
 
 def show_heroes():
-  see_heroes = input("Would you like to see the list of heroes again? Enter y/n: ")
-  if see_heroes == "y":
+  see_heroes = input("Would you like to see the list of heroes? Enter y/n: ")
+  if see_heroes.lower() == "y":
     print(heroes_string)
 
 def show_caracteristics():
   see_caracteristics = input("Would you like to see the list of heroes caracteristics? Enter y/n: ")
-  if see_caracteristics == "y":
+  if see_caracteristics.lower() == "y":
     print(f"{key_caracteristics[0]}: {heroes_atribute}")
     print(f"{key_caracteristics[1]}: {heroes_role}")
     print(f"{key_caracteristics[2]}: {heroes_complexity}")
@@ -37,6 +37,10 @@ def show_caracteristics():
 
 def Dota2_Recomm_System():
   greet()
+  show_heroes()
+
+  show_caracteristics()
+    
   user_choice = int(input("What would you like to do?\n 1.Recommendation heroes by first letter?\n 2.Recommendation heroes by characteristics?\n 3.Recommendation heroes by multiple characteristics?\n"))
   if user_choice == 1:
     hero_by_letter()
