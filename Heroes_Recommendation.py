@@ -1,20 +1,36 @@
+from Hero_Database import heroes
 
+heroes_string = ""
+for hero in heroes.keys():
+  heroes_string += f"{hero[0:2]} - {hero[3:]}\n"
 
+print(heroes_string)
 def greet():
   print("Hi there and welcome to Dota2 Recommendation System!")
   print("We'll help you find the best and suited hero for you.")
-  print("What would you like to do?\n 1. Recommendation heroes by first letter? 2. Recommendation heroes by characteristics?")
 
 def goodbye():
   print("Thanks for using D2RS. See you next time.")
 
-def choose_hero():
+def hero_by_letter():
   pass
-    
-def counter_pick_hero():    
-  counter_pick = input("What is the hero that you would like to counter?\n")
+
+def hero_by_traits():
+  pass
+
+def hero_by_multiple_traits():
+  pass
+
+def show_heroes():
+  see_heroes = input("Would you like to see the list of heroes again? Enter y/n: ")
 
 def Dota2_Recomm_System():
   greet()
-  choose_hero()
+  user_choice = int(input("What would you like to do?\n 1.Recommendation heroes by first letter?\n 2.Recommendation heroes by characteristics?\n 3.Recommendation heroes by multiple characteristics?\n"))
+  if user_choice == 1:
+    hero_by_letter()
+  elif user_choice == 2:
+    hero_by_traits()
+  elif user_choice == 3:
+    hero_by_multiple_traits()    
   goodbye()
