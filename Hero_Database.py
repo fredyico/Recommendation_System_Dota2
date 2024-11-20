@@ -3,6 +3,13 @@
 #type, or role (carry or support)
 #lane
 
+caracteristics = {
+    'attributes': ['agility', 'intelligence', 'strength', 'universal'], 
+    'role': [[],'carry', 'support'],
+    'complexity': ['low', 'moderate', 'high'],
+    'tags': ['melee', 'ranged', 'disabler', 'escape', 'jungler', 'pusher', 'durable', 'initiator']    
+}
+
 heroes = {
     '001.Abaddon': {
         'attributes': ['universal'], 
