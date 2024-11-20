@@ -1,7 +1,7 @@
 from Hero_Database import caracteristics, heroes
 
-
 heroes_string = ""
+
 for hero in heroes.keys():
   heroes_string += f"{hero[0:]}\n"
 
@@ -9,6 +9,7 @@ heroes_atribute = ""
 heroes_role = ""
 heroes_complexity = ""
 heroes_tags = ""
+key_caracteristics = list(caracteristics.keys())
 
 for a_r_c_t, values in caracteristics.items():
   if a_r_c_t == 'attributes':
@@ -19,8 +20,6 @@ for a_r_c_t, values in caracteristics.items():
     heroes_complexity += f"{values}, "
   elif a_r_c_t == 'tags':
     heroes_tags += f"{values}, "
-
-#print(heroes_string)
 
 def greet():
   print("Hi there and welcome to Dota2 Recommendation System!")
@@ -46,10 +45,10 @@ def show_heroes():
 def show_caracteristics():
   see_caracteristics = input("Would you like to see the list of heroes caracteristics? Enter y/n: ")
   if see_caracteristics == "y":
-    print(f"{caracteristics.keys()[0]}: {heroes_atribute}, ")
-    print(f"{caracteristics.keys()[1]}: {heroes_role}, ")
-    print(f"{caracteristics.keys()[2]}: {heroes_complexity}, ")
-    print(f"{caracteristics.keys()[3]}: {heroes_tags}, ")
+    print(f"{key_caracteristics[0]}: {heroes_atribute}")
+    print(f"{key_caracteristics[1]}: {heroes_role}")
+    print(f"{key_caracteristics[2]}: {heroes_complexity}")
+    print(f"{key_caracteristics[3]}: {heroes_tags}")
 
 def Dota2_Recomm_System():
   greet()
@@ -62,5 +61,5 @@ def Dota2_Recomm_System():
     hero_by_multiple_traits()    
   goodbye()
 
-
-show_caracteristics()
+#show_heroes()
+#show_caracteristics()
