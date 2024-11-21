@@ -2,13 +2,6 @@
 #tags
 #type, or role (carry or support)
 
-caracteristics = {
-    'attributes': ['agility', 'intelligence', 'strength', 'universal'], 
-    'role': [[],'carry', 'support'],
-    'complexity': ['low', 'moderate', 'high'],
-    'tags': ['melee', 'ranged', 'disabler', 'escape', 'jungler', 'pusher', 'durable', 'initiator']    
-}
-
 heroes = {
     '001.Abaddon': {
         'attributes': 'universal', 
@@ -767,28 +760,3 @@ heroes = {
         'tags': ['ranged', 'nuker']
     },   
 }
-
-########## string heroes to be printed #################
-heroes_string = ""                                     #
-                                                       #
-for hero in heroes.keys():                             #
-  heroes_string += f"{hero[0:]}\n"                     #
-########################################################
-
-########## string caracteristics to be printed #########
-heroes_atribute = ""                                   #
-heroes_role = ""                                       #
-heroes_complexity = ""                                 #
-heroes_tags = ""                                       #
-key_caracteristics = list(caracteristics.keys())       #
-                                                       #
-for a_r_c_t, values in caracteristics.items():         #
-  if a_r_c_t == 'attributes':                          #
-    heroes_atribute += f"{values}, "                   #
-  elif a_r_c_t == 'role':                              #
-    heroes_role += f"{values}, "                       #
-  elif a_r_c_t == 'complexity':                        #
-    heroes_complexity += f"{values}, "                 #
-  elif a_r_c_t == 'tags':                              #
-    heroes_tags += f"{values}, "                       #
-########################################################

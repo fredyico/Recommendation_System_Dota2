@@ -1,4 +1,4 @@
-from Hero_Database import caracteristics, heroes, heroes_string
+from Hero_Database import heroes
 
 def greet():
   print("Welcome to the Dota 2 Hero Recommendation System!")
