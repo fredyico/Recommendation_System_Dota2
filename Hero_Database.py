@@ -47,13 +47,13 @@ heroes = {
     },
     '008.Batrider': {
         'attributes': 'universal', 
-        'role': [],
+        'role': ['flex'],
         'complexity': 'moderate',
         'tags': ['ranged', 'initiator', 'disabler', 'escape']
     },
     '009.Beastmaster': {
         'attributes': 'universal', 
-        'role': [],
+        'role': ['flex'],
         'complexity': 'moderate',
         'tags': ['melee', 'disabler', 'nuker', 'durable', 'initiator'] 
     },
@@ -65,7 +65,7 @@ heroes = {
     },
     '011.Bounty Hunter': {
         'attributes': 'agility', 
-        'role': [],
+        'role': ['flex'],
         'complexity': 'low',
         'tags': ['melee', 'escape', 'nuker']
     },
@@ -89,7 +89,7 @@ heroes = {
     },
     '015.Centaur Warrunner': {
         'attributes': 'strength', 
-        'role': [],
+        'role': ['flex'],
         'complexity': 'low',
         'tags': ['melee', 'disabler', 'escape', 'nuker', 'durable', 'initiator']
     },
@@ -113,7 +113,7 @@ heroes = {
     },
     '019.Clockwerk': {
         'attributes': 'universal', 
-        'role': [],
+        'role': ['flex'],
         'complexity': 'moderate',
         'tags': ['melee', 'disabler', 'nuker', 'durable', 'initiator']
     },
@@ -125,7 +125,7 @@ heroes = {
     },
     '021.Dark Seer': {
         'attributes': 'universal', 
-        'role': [],
+        'role': ['flex'],
         'complexity': 'low',
         'tags': ['melee', 'disabler', 'escape', 'initiator']
     },
@@ -179,7 +179,7 @@ heroes = {
     },
     '030.Earth Spirit': {
         'attributes': 'strength', 
-        'role': [],
+        'role': ['flex'],
         'complexity': 'high',
         'tags': ['melee', 'disabler', 'escape', 'nuker', 'durable', 'initiator']
     },
@@ -191,7 +191,7 @@ heroes = {
     },
     '032.Elder Titan': {
         'attributes': 'strength', 
-        'role': [],
+        'role': ['flex'],
         'complexity': 'moderate',
         'tags': ['melee', 'disabler', 'nuker', 'durable', 'initiator']
     },
@@ -209,7 +209,7 @@ heroes = {
     },
     '035.Enigma': {
         'attributes': 'universal', 
-        'role': [],
+        'role': ['flex'],
         'complexity': 'moderate',
         'tags': ['ranged', 'disabler', 'pusher', 'initiator']
     },
@@ -341,7 +341,7 @@ heroes = {
     }, 
     '057.Magnus': {
         'attributes': 'universal', 
-        'role': [],
+        'role': ['flex'],
         'complexity': 'moderate',
         'tags': ['melee', 'disabler', 'escape', 'nuker', 'initiator']
     },
@@ -419,7 +419,7 @@ heroes = {
     },
     '070.Nix Assassin': {
         'attributes': 'universal', 
-        'role': [],
+        'role': ['flex'],
         'complexity': 'moderate',
         'tags': ['melee', 'disabler', 'escape', 'nuker', 'initiator']
     },
@@ -473,25 +473,25 @@ heroes = {
     },
     '079.Primal Beast': {
         'attributes': 'strength', 
-        'role': [],
+        'role': ['flex'],
         'complexity': 'low',
         'tags': ['ranged', 'disabler', 'durable', 'initiator']
     },
     '080.Puck': {
         'attributes': 'intelligence', 
-        'role': [],
+        'role': ['flex'],
         'complexity': 'moderate',
         'tags': ['ranged', 'disabler', 'escape', 'nuker', 'initiator']
     },
     '081.Pudge': {
         'attributes': 'strength', 
-        'role': [],
+        'role': ['flex'],
         'complexity': 'moderate',
         'tags': ['melee', 'disabler', 'escape', 'nuker', 'initiator']
     },
     '082.Pugna': {
         'attributes': 'intelligence', 
-        'role': [],
+        'role': ['flex'],
         'complexity': 'moderate',
         'tags': ['ranged', 'pusher', 'nuker']
     },
@@ -611,7 +611,7 @@ heroes = {
     },
     '102.Techies': {
         'attributes': 'universal', 
-        'role': [],
+        'role': ['flex'],
         'complexity': 'moderate',
         'tags': ['ranged', 'disabler', 'nuker']
     },
@@ -635,7 +635,7 @@ heroes = {
     },
     '106.Timbersaw': {
         'attributes': 'strength', 
-        'role': [],
+        'role': ['flex'],
         'complexity': 'moderate',
         'tags': ['melee', 'escape', 'nuker', 'durable']
     },
@@ -665,7 +665,7 @@ heroes = {
     },
     '111.Tusk': {
         'attributes': 'strength', 
-        'role': [],
+        'role': ['flex'],
         'complexity': 'low',
         'tags': ['melee', 'disabler', 'nuker', 'initiator']
     },

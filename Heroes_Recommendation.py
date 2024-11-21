@@ -55,7 +55,7 @@ def main():
     # Define valid options
     attributes = ['universal', 'strength', 'agility', 'intelligence']
     complexities = ['low', 'moderate', 'high']
-    roles = ['carry', 'support', 'offlaner', 'mid', 'empty']
+    roles = ['carry', 'support', 'flex']
     tags = ['melee', 'ranged', 'durable', 'disabler', 'nuker', 'initiator', 'escape']
 
     # Get user input for each criterion
@@ -68,7 +68,7 @@ def main():
         complexities
     )
     selected_role = get_valid_input(
-        "Select a role (carry/support/offlaner/mid/empty): ", 
+        "Select a role (carry/support/flex): ", 
         roles
     )
     print(f"Available tags: {', '.join(tags)}")
