@@ -1,11 +1,55 @@
-from Hero_Database import caracteristics, heroes, heroes_string, heroes_atribute, heroes_role, heroes_complexity, heroes_tags, key_caracteristics
+from Hero_Database import caracteristics, heroes, heroes_string
 
 def greet():
-  print("Hi there and welcome to Dota2 Recommendation System!")
+  print("Welcome to the Dota 2 Hero Recommendation System!")
   print("We'll help you find the best and suited hero for you.")
 
 def goodbye():
   print("Thanks for using D2RS. See you next time.")
+
+def get_valid_input(prompt, options):
+    """
+    Prompt the user for input and validate it against a list of valid options.
+    Args:
+        prompt (str): The message to display to the user.
+        options (list): A list of valid input options.
+    Returns:
+        str: The validated user input.
+    """
+    while True:
+        user_input = input(prompt).strip().lower()
+        if user_input in options:
+            return user_input
+        else:
+            print(f"Invalid input. Please choose from: {', '.join(options)}")
+
+def select_criterias():
+  attributes = ['universal', 'strength', 'agility', 'intelligence']
+  complexities = ['low', 'moderate', 'high']
+  roles = ['carry', 'support', 'empty']
+
+  print("Welcome to the Dota 2 Hero Recommendation System!")
+    
+    # Prompt user for attribute selection
+  selected_attribute = get_valid_input(
+      "Select an attribute (universal/strength/agility/intelligence): ", 
+        attributes)
+  print(f"You selected attribute: {selected_attribute.capitalize()}")
+
+    # Prompt user for complexity selection
+  selected_complexity = get_valid_input(
+        "Select complexity (low/moderate/high): ", 
+        complexities)
+  print(f"You selected complexity: {selected_complexity.capitalize()}")
+
+    # Prompt user for role selection
+  selected_role = get_valid_input(
+        "Select a role (carry/support/offlaner/mid/empty): ", 
+        roles)
+  print(f"You selected role: {selected_role.capitalize()}")
+
+    # Continue with the recommendation logic using the selected criteria
+  print("\nFetching heroes that match your criteria...\n")
 
 def hero_by_letter():
   pass
