@@ -23,33 +23,78 @@ def get_valid_input(prompt, options):
         else:
             print(f"Invalid input. Please choose from: {', '.join(options)}")
 
-def select_criterias():
-  attributes = ['universal', 'strength', 'agility', 'intelligence']
-  complexities = ['low', 'moderate', 'high']
-  roles = ['carry', 'support', 'empty']
+def filter_heroes(attribute=None, complexity=None, role=None, tags=None):
+    """
+    Filter heroes based on selected criteria.
 
-  print("Welcome to the Dota 2 Hero Recommendation System!")
+    Args:
+        attribute (str): The selected attribute.
+        complexity (str): The selected complexity.
+        role (str): The selected role.
+        tags (list): A list of selected tags.
+
+    Returns:
+        list: A list of heroes matching the criteria.
+    """
+    filtered = []
+    for hero, data in heroes.items():
+        if attribute and data['attributes'] != attribute:
+            continue
+        if complexity and data['complexity'] != complexity:
+            continue
+        if role and role not in data['role']:
+            continue
+        if tags and not all(tag in data['tags'] for tag in tags):
+            continue
+        filtered.append(hero)
+    return filtered
+
+def main():
+    print("Welcome to the Dota 2 Hero Recommendation System!")
     
-    # Prompt user for attribute selection
-  selected_attribute = get_valid_input(
-      "Select an attribute (universal/strength/agility/intelligence): ", 
-        attributes)
-  print(f"You selected attribute: {selected_attribute.capitalize()}")
+    # Define valid options
+    attributes = ['universal', 'strength', 'agility', 'intelligence']
+    complexities = ['low', 'moderate', 'high']
+    roles = ['carry', 'support', 'offlaner', 'mid', 'empty']
+    tags = ['melee', 'ranged', 'durable', 'disabler', 'nuker', 'initiator', 'escape']
 
-    # Prompt user for complexity selection
-  selected_complexity = get_valid_input(
+    # Get user input for each criterion
+    selected_attribute = get_valid_input(
+        "Select an attribute (universal/strength/agility/intelligence): ", 
+        attributes
+    )
+    selected_complexity = get_valid_input(
         "Select complexity (low/moderate/high): ", 
-        complexities)
-  print(f"You selected complexity: {selected_complexity.capitalize()}")
-
-    # Prompt user for role selection
-  selected_role = get_valid_input(
+        complexities
+    )
+    selected_role = get_valid_input(
         "Select a role (carry/support/offlaner/mid/empty): ", 
-        roles)
-  print(f"You selected role: {selected_role.capitalize()}")
+        roles
+    )
+    print(f"Available tags: {', '.join(tags)}")
+    selected_tags = input("Enter tags separated by commas (e.g., melee,durable): ").strip().lower().split(',')
 
-    # Continue with the recommendation logic using the selected criteria
-  print("\nFetching heroes that match your criteria...\n")
+    # Filter heroes based on user inputs
+    matching_heroes = filter_heroes(
+        attribute=selected_attribute,
+        complexity=selected_complexity,
+        role=selected_role,
+        tags=selected_tags
+    )
+    
+    # Display the results
+    if matching_heroes:
+        print("\nHeroes matching your criteria:")
+        for hero in matching_heroes:
+            print(f"- {hero}")
+    else:
+        print("\nNo heroes match your criteria. Try different selections.")
+
+if __name__ == "__main__":
+    main()
+
+
+
 
 def hero_by_letter():
   pass
@@ -71,19 +116,9 @@ def show_heroes():
   if see_heroes.lower() == "y":
     print(heroes_string)
 
-def show_caracteristics():
-  see_caracteristics = input("Would you like to see the list of heroes caracteristics? Enter y/n: ")
-  if see_caracteristics.lower() == "y":
-    print(f"{key_caracteristics[0]}: {heroes_atribute}")
-    print(f"{key_caracteristics[1]}: {heroes_role}")
-    print(f"{key_caracteristics[2]}: {heroes_complexity}")
-    print(f"{key_caracteristics[3]}: {heroes_tags}")
-
 def Dota2_Recomm_System():
   greet()
   show_heroes()
-
-  show_caracteristics()
     
   user_choice = int(input("What would you like to do?\n 1.Recommendation heroes by first letter?\n 2.Recommendation heroes by characteristics?\n 3.Recommendation heroes by multiple characteristics?\n"))
   if user_choice == 1:
