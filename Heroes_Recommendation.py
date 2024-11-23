@@ -101,23 +101,24 @@ def searching_hero_from_criterias():
       print("\nNo heroes match your criteria. Try different selections.")
       
 def choose_search_method():
-  options = ['a','b']
-  selected_search_method = get_valid_input("Select the method to list your heroes:\na) Search by the first name letter \nb) Search by specific criterias(attributes,complexity,roles,tags)", options)
+  options = ['a','b','c']
+  selected_search_method = get_valid_input("Select the method to list your heroes:\na) Search by the first name letter \nb) Search by specific criterias(attributes,complexity,roles,tags)\nc) Exit\n", options)
   if selected_search_method == 'a':
-    filter_hero_by_letter()
+    return filter_hero_by_letter()
   elif selected_search_method == 'b':
-    searching_hero_from_criterias()
+    return searching_hero_from_criterias()
+  elif selected_search_method == 'c':
+    goodbye()
+    return exit()
+  else:
+    print("Invalid choice. Please select a, b, or c.")
+      
     
 
 def main():
-  try_again = ""
   greet()
-  while try_again != "n":
-    choose_search_method()
-    try_again = input("would you like to search again? y/n ")
-    if try_again == "n":
-      goodbye()
-      
+  while True:
+    choose_search_method() 
         
   
 
