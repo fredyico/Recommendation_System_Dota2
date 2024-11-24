@@ -42,5 +42,18 @@ A Python-based recommendation system for Dota 2 heroes. This tool allows users t
 2. **Run the Program:**
 
     ```
-python Heroes_Recommendation.py
+    python Heroes_Recommendation.py
     ```
+## Usage
+
+### Menu Options
+
+Upon running the program, you’ll see the following menu:
+
+~~Menu:
+1. Search for heroes based on criteria
+2. Show all heroes by the first letter
+3. Exit~~
+
+ 
+
