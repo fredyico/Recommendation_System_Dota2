@@ -26,33 +26,35 @@ A Python-based recommendation system for Dota 2 heroes. This tool allows users t
 
         Prerequisites
     * Python 3.8 or above installed on your machine.
-* Clone the Repository: git clone https://github.com/fredyico/Recommendation_System_Dota2.git
-                        cd Recommendation_System_Dota2
+* Clone the Repository: 
+    git clone https://github.com/fredyico/Recommendation_System_Dota2.git
+    cd Recommendation_System_Dota2
 
-* Run the Program: python Heroes_Recommendation.py
+* Run the Program:
+    python Heroes_Recommendation.py
         
         Usage
-* Example 1: Search for Heroes Based on Criteria
-        1. Select Option 1 from the menu.
-        2. Input your desired criteria:
-            Attribute: strength
-            Complexity: low
-            Role: carry
-            Tags: melee, durable
-        Output:
+Example 1: Search for Heroes Based on Criteria
+1. Select Option 1 from the menu.
+2. Input your desired criteria:
+    Attribute: strength
+    Complexity: low
+    Role: carry
+    Tags: melee, durable
+Output:
     Heroes matching your criteria:
     - Axe
-* Example 2: Show Heroes by First Letter
-        1. Select Option 2 from the menu.
-        2. Input the letter a.
-        Output:
+Example 2: Show Heroes by First Letter
+1. Select Option 2 from the menu.
+2. Input the letter a.
+Output:
     Heroes starting with 'A':
     - Anti-Mage
     - Axe
     - Abaddon
-* Example 3: Exit the Program
-        1. Select Option 3 from the menu to exit.
-        
+Example 3: Exit the Program
+1. Select Option 3 from the menu to exit.
+
         Hero Database
 The hero database is derived from the official Dota 2 website. Heroes are categorized based on:
 * Attributes: Universal, Strength, Agility, Intelligence.
