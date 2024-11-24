@@ -26,12 +26,11 @@ A Python-based recommendation system for Dota 2 heroes. This tool allows users t
 
         Prerequisites
     * Python 3.8 or above installed on your machine.
-* Clone the Repository
-git clone https://github.com/fredyico/Recommendation_System_Dota2.git
-cd Recommendation_System_Dota2
+* Clone the Repository: git clone https://github.com/fredyico/Recommendation_System_Dota2.git
+                        cd Recommendation_System_Dota2
 
-* Run the Program
-python Heroes_Recommendation.py
+* Run the Program: python Heroes_Recommendation.py
+        
         Usage
 * Example 1: Search for Heroes Based on Criteria
         1. Select Option 1 from the menu.
