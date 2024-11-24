@@ -1,40 +1,40 @@
-    Dota 2 Hero Recommendation System
+Dota 2 Hero Recommendation System
 A Python-based recommendation system for Dota 2 heroes. This tool allows users to explore heroes based on attributes, roles, complexity, and tags. Additionally, it includes a feature to display all heroes starting with a specific letter.
 
-    Features
-* Search heroes based on:
-    * Attributes (Universal, Strength, Agility, Intelligence)
-    * Roles (Carry, Support, Flex)
-    * Complexity (Low, Moderate, High)
-    * Tags (e.g., Melee, Ranged, Durable, Disabler, Nuker, etc.)
-* Display all heroes starting with a specific letter.
-* User-friendly menu with input validation.
-    How It Works
-1. Menu Options:
+Features
+Search heroes based on:
+Attributes (Universal, Strength, Agility, Intelligence)
+Roles (Carry, Support, Flex)
+Complexity (Low, Moderate, High)
+Tags (e.g., Melee, Ranged, Durable, Disabler, Nuker, etc.)
+Display all heroes starting with a specific letter.
+User-friendly menu with input validation.
+How It Works
+Menu Options:
 
-* Option 1: Search heroes based on criteria.
-* Option 2: Display all heroes whose names start with a specific letter.
-* Option 3: Exit the program.
+Option 1: Search heroes based on criteria.
+Option 2: Display all heroes whose names start with a specific letter.
+Option 3: Exit the program.
+Hero Filtering:
 
-2. Hero Filtering:
+Input criteria for attributes, complexity, roles, and tags.
+Get a list of heroes matching the selected criteria.
+Hero Search by Letter:
 
-* Input criteria for attributes, complexity, roles, and tags.
-* Get a list of heroes matching the selected criteria.
-
-3. Hero Search by Letter:
-
-* Enter a letter to display all heroes starting with that letter.
-
-    Getting Started
+Enter a letter to display all heroes starting with that letter.
+Getting Started
 Prerequisites
-* Python 3.8 or above installed on your machine.
-    Clone the Repository
-
+Python 3.8 or above installed on your machine.
+Clone the Repository
+bash
+Copiar código
 git clone https://github.com/fredyico/Recommendation_System_Dota2.git
 cd Recommendation_System_Dota2
-    Run the Program
+Run the Program
+bash
+Copiar código
 python Heroes_Recommendation.py
-    Usage
+Usage
 Example 1: Search for Heroes Based on Criteria
 Select Option 1 from the menu.
 Input your desired criteria:
