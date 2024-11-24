@@ -72,3 +72,19 @@ Heroes matching your criteria:
 - Axe
 
 ```
+
+### Example 2: Show Heroes by First Letter
+1. Select Option 2 from the menu.
+2. Input the letter 'a'.
+3. Output:
+
+```python
+Heroes starting with 'A':
+- Anti-Mage
+- Axe
+- Abaddon
+
+```
+
+### Example 3: Exit the Program
+1. Select Option 3 from the menu to exit.
