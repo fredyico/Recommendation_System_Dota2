@@ -132,3 +132,7 @@ git commit -m "Added feature-name"
 git push origin feature-name
 ```
 5. Submit a pull request.
+
+## Acknowledgments
+- Dota 2 hero data is based on official information from the Dota 2 website (http://www.dota2.com).
+- Built as part of a portfolio project to practice Python and data structures.
