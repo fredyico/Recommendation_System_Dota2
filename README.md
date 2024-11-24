@@ -88,3 +88,12 @@ Heroes starting with 'A':
 
 ### Example 3: Exit the Program
 1. Select Option 3 from the menu to exit.
+
+## Hero Database
+The hero database is derived from the official Dota 2 website. Heroes are categorized based on:
+
+   - Attributes: Universal, Strength, Agility, Intelligence
+   - Roles: Carry, Support, Flex
+   - Tags: Melee, Ranged, Durable, Disabler, Nuker, etc.
+### Note:
+Heroes without explicitly defined roles on the Dota 2 website are categorized as flex.
