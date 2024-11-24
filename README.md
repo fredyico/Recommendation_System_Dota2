@@ -1,4 +1,4 @@
-        Dota 2 Hero Recommendation System
+                Dota 2 Hero Recommendation System
 A Python-based recommendation system for Dota 2 heroes. This tool allows users to explore heroes based on attributes, roles, complexity, and tags. Additionally, it includes a feature to display all heroes starting with a specific letter.
 
     Features
@@ -63,7 +63,7 @@ The hero database is derived from the official Dota 2 website. Heroes are catego
     Note:
 Heroes without explicitly defined roles on the Dota 2 website are categorized as flex.
 
-Development Progress
+        Development Progress
  Hero database creation, check
  Menu implementation, check 
  Input validation, check 
