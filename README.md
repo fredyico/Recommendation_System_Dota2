@@ -50,10 +50,12 @@ A Python-based recommendation system for Dota 2 heroes. This tool allows users t
 
 Upon running the program, you’ll see the following menu:
 
-~~Menu:
+```python
+Menu:
 1. Search for heroes based on criteria
 2. Show all heroes by the first letter
-3. Exit~~
+3. Exit
 
+```
  
 
