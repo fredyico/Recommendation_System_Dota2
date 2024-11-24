@@ -96,4 +96,39 @@ The hero database is derived from the official Dota 2 website. Heroes are catego
    - Roles: Carry, Support, Flex
    - Tags: Melee, Ranged, Durable, Disabler, Nuker, etc.
 ### Note:
-Heroes without explicitly defined roles on the Dota 2 website are categorized as flex.
+Heroes without explicitly defined roles on the Dota 2 website are categorized as 'flex'.
+
+## Development Progress
+* Hero database creation
+* Menu implementation
+* Input validation
+* Filtering functionality
+* Display heroes by first letter
+* Code refactoring and cleanup
+* Autocomplete feature for hero names
+* Additional hero details (abilities, synergies, counters)
+
+## Contributing
+Contributions are welcome! If you'd like to add features or improve the project, follow these steps:
+
+1. Fork the repository:
+
+```bash
+git fork https://github.com/fredyico/Recommendation_System_Dota2.git
+```
+2. Create a branch for your feature:
+
+```bash
+git checkout -b feature-name
+```
+3. Commit your changes:
+
+```bash
+git commit -m "Added feature-name"
+```
+4. Push your changes to your forked repository:
+
+```bash
+git push origin feature-name
+```
+5. Submit a pull request.
