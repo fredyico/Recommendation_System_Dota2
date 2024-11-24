@@ -1,7 +1,8 @@
-                Dota 2 Hero Recommendation System
+              *** Dota 2 Hero Recommendation System ***
+
 A Python-based recommendation system for Dota 2 heroes. This tool allows users to explore heroes based on attributes, roles, complexity, and tags. Additionally, it includes a feature to display all heroes starting with a specific letter.
 
-    Features
+  Features
 * Search heroes based on:
     * Attributes (Universal, Strength, Agility, Intelligence)
     * Roles (Carry, Support, Flex)
@@ -9,7 +10,8 @@ A Python-based recommendation system for Dota 2 heroes. This tool allows users t
     * Tags (e.g., Melee, Ranged, Durable, Disabler, Nuker, etc.)
 * Display all heroes starting with a specific letter.
 * User-friendly menu with input validation.
-    How It Works
+
+  *** How It Works *** 
 1. Menu Options:
     * Option 1: Search heroes based on criteria.
     * Option 2: Display all heroes whose names start with a specific letter.
@@ -26,42 +28,50 @@ A Python-based recommendation system for Dota 2 heroes. This tool allows users t
 
         Prerequisites
     * Python 3.8 or above installed on your machine.
-* Clone the Repository: 
-    git clone https://github.com/fredyico/Recommendation_System_Dota2.git
-    cd Recommendation_System_Dota2
 
-* Run the Program:
-    python Heroes_Recommendation.py
+      Clone the Repository:
+      
+          git clone https://github.com/fredyico/Recommendation_System_Dota2.git
+          cd Recommendation_System_Dota2
+
+      Run the Program:
+
+          python Heroes_Recommendation.py
         
-        Usage
-Example 1: Search for Heroes Based on Criteria
-1. Select Option 1 from the menu.
-2. Input your desired criteria:
-    Attribute: Strength
-    Complexity: low
-    Role: Carry
-    Tags: melee, durable
-Output:
-    Heroes matching your criteria:
-    - Axe
-Example 2: Show Heroes by First Letter
-1. Select Option 2 from the menu.
-2. Input the letter a.
-Output:
-    Heroes starting with 'A':
-    - Anti-Mage
-    - Axe
-    - Abaddon
-Example 3: Exit the Program
-1. Select Option 3 from the menu to exit.
+   *** Usage *** 
 
-        Hero Database
+* Example 1: Search for Heroes Based on Criteria
+    * Select Option 1 from the menu.
+    * Input your desired criteria:
+        * Attribute: Strength
+        * Complexity: low
+        * Role: Carry
+        * Tags: melee, durable
+    * Output:
+      Heroes matching your criteria:
+      - Axe
+
+* Example 2: Show Heroes by First Letter
+    * Select Option 2 from the menu.
+    * Input the letter: a.
+    * Output:
+    Heroes starting with 'A':
+      - Anti-Mage
+      - Axe
+      - Abaddon
+
+* Example 3: Exit the Program
+    * Select Option 3 from the menu to exit.
+
+    Hero Database
+
 The hero database is derived from the official Dota 2 website. Heroes are categorized based on:
-* Attributes: Universal, Strength, Agility, Intelligence.
-* Roles: Carry, Support, Flex.
-* Tags: Includes descriptors like Melee, Ranged, Durable, Disabler, etc.
+  * Attributes: Universal, Strength, Agility, Intelligence.
+  * Roles: Carry, Support, Flex.
+  * Tags: Includes descriptors like Melee, Ranged, Durable, Disabler, etc.
+
     Note:
-Heroes without explicitly defined roles on the Dota 2 website are categorized as flex.
+  * Heroes without explicitly defined roles on the Dota 2 website are categorized as flex.
 
         Development Progress
 Hero database creation, check
