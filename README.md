@@ -1,4 +1,4 @@
-“**Dota 2 Hero Recommendation System** =====================================”
+“**Dota 2 Hero Recommendation System**”
 A Python-based recommendation system for Dota 2 heroes. This tool allows users to explore heroes based on attributes, roles, complexity, and tags. It also includes a feature to display all heroes starting with a specific letter.
 
 Features
