@@ -57,5 +57,18 @@ Menu:
 3. Exit
 
 ```
- 
 
+### Example 1: Search for Heroes Based on Criteria
+1. Select Option 1 from the menu.
+2. Input your desired criteria:
+   - Attribute: strength
+   - Complexity: low
+   - Role: carry
+   - Tags: melee, durable
+3. Output:
+
+```python
+Heroes matching your criteria:
+- Axe
+
+```
