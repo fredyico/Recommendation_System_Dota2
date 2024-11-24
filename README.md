@@ -15,14 +15,14 @@ A Python-based recommendation system for Dota 2 heroes. This tool allows users t
 ## How it Works
 
 1. Menu Options:
-- Option 1: Search heroes based on criteria.
-- Option 2: Display all heroes whose names start with a specific letter.
-- Option 3: Exit the program.
+   - Option 1: Search heroes based on criteria.
+   - Option 2: Display all heroes whose names start with a specific letter.
+   - Option 3: Exit the program.
 2. Hero Filtering:
-- Input criteria for attributes, complexity, roles, and tags.
-- Get a list of heroes matching the selected criteria.
+   - Input criteria for attributes, complexity, roles, and tags.
+   - Get a list of heroes matching the selected criteria.
 3. Hero Search by Letter:
-- Enter a letter to display all heroes starting with that letter.
+   - Enter a letter to display all heroes starting with that letter.
 
 ## Getting Started
 
