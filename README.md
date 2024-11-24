@@ -34,7 +34,13 @@ A Python-based recommendation system for Dota 2 heroes. This tool allows users t
 
 1. **Clone the Repository:**
 
-   ```bash
+    ```
    git clone https://github.com/fredyico/Recommendation_System_Dota2.git
-   cd Recommendation_System_Dota2
-2. **Run the Program:** 
+   cd Recommendation_System_Dota2 
+    ```
+
+2. **Run the Program:**
+
+    ```
+python Heroes_Recommendation.py
+    ```
